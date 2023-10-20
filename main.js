@@ -13,3 +13,8 @@ function tocaSomClap(){
 }
 //chamada ou invocação da função tocaSomClap ao clicar no botão
 document.querySelector('.tecla_clap').onclick = tocaSomClap;
+
+//criando a refêrencias constante listaDeTeclas e buscando a classe coletiva .tecla
+const listaDeTeclas = document.querySelectorAll('.tecla');
+//chamando a constante listaDeTeclas e o índice "0" do somPom
+listaDeTeclas[0].onclick = tocaSomPom;
