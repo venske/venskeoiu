@@ -7,7 +7,7 @@ function tocaSomPom(){
 const listaDeTeclas = document.querySelectorAll('.tecla');
 //chamando a constante listaDeTeclas e o índice "0" do somPom
 
-let comtador = 0;
+let contador = 0;
 while(contador < 9){  
     listaDeTeclas[0].onclick = tocaSomPom;
     contador = contador + 1;
