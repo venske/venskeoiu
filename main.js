@@ -2,7 +2,6 @@
 function tocaSomPom(ideElementoAudio){  
     document.querySelector(ideElementoAudio).play();
 }
-
 //criando a refêrencias constante listaDeTeclas e buscando a classe coletiva .tecla
 const listaDeTeclas = document.querySelectorAll('.tecla');
 let contador = 0;
