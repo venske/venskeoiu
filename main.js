@@ -11,7 +11,7 @@ let contador = 0;
 while(contador < listaDeTeclas.length){  
     const teclas = listaDeTeclas[contador]
     const efeito = teclas.classList[1];
-    const idAudio = `#som_"${efeito};
+    const idAudio = `#som_"${efeito}`;
     teclas.onclick = function(){   
         tocaSomPom(idAudio);
     }
