@@ -12,7 +12,8 @@ for(let contador = 0;contador < listaDeTeclas.length; contador++){
     teclas.onclick = function(){      //função anônima auxiliar para chamar tocaSom
         tocaSom(idAudio);      //chamada da função tocaSom com parâmetro idAudio
     }
-    teclas.onkeydown = function(){  
+    teclas.onkeydown = function(evento){  
+        if(evento.code !='Tab'){  
         teclas.classList.add('ativa');
 } 
 teclas.onkeydown = function(){  
